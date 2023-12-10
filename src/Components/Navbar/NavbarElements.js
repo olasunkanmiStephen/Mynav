@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
 import { FaBars } from 'react-icons/fa'
 
-export const Nav = styled.nav`
-    background: #000;
+export const Navbar = styled.nav`
+    background: black;
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -53,7 +53,7 @@ export const NavMenu = styled.div`
 
 export const NavBtn = styled.nav`
     display: flex;
-    align-items: center;  // Corrected spelling here
+    align-items: center;
     margin-left: 24px;
     
 
